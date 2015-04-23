@@ -1,0 +1,134 @@
+    // About Section
+    section#about
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading About
+            h3.section-subheading.text-muted
+              | Photos courtesy of 
+              a(href='http://awkwardfamilyphotos.com/') Awkward Family Photos
+              | .
+        .row
+          .col-lg-12
+            ul.timeline
+              li
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/1.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Let's Get Started
+                    h4.subheading Partner & Set-up
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li.timeline-inverted
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/2.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Compiling
+                    h4.subheading Prepros, Jade, Less, Oh my!
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/3.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Modularity
+                    h4.subheading Break your design into components
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li.timeline-inverted
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/4.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Inspecting
+                    h4.subheading Pushing Pixels in Browser
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li.timeline-inverted
+                .timeline-image
+                  h4
+                    | Start
+                    br
+                    | Prototpying
+                    br
+                    | Monday!
+    // Team Section
+    section#team.bg-light-gray
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Our Amazing Team
+            h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row
+          .col-sm-4
+            .team-member
+              img.img-responsive.img-circle(src='img/team/1.jpg', alt='')
+              h4 You
+              p.text-muted Information Architect
+              ul.list-inline.social-buttons
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-twitter
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-dribbble
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-linkedin
+          .col-sm-4
+            .team-member
+              img.img-responsive.img-circle(src='img/team/3.jpg', alt='')
+              h4 And You
+              p.text-muted Interaction Designer
+              ul.list-inline.social-buttons
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-twitter
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-dribbble
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-linkedin
+          .col-sm-4
+            .team-member
+              img.img-responsive.img-circle(src='img/team/2.jpg', alt='')
+              h4 And Me
+              p.text-muted Design Lead
+              ul.list-inline.social-buttons
+                li
+                  a(href='http://twitter.com/periodicdesign')
+                    i.fa.fa-twitter
+                li
+                  a(href='http://dribbble.com/periodicdesign')
+                    i.fa.fa-dribbble
+                li
+                  a(href='http://www.linkedin.com/in/periodicdesign')
+                    i.fa.fa-linkedin
+        .row
+          .col-lg-8.col-lg-offset-2.text-center
+            p.large.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+    // Clients Aside
+    aside.clients
+      .container
+        .row
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/envato.jpg', alt='')
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/designmodo.jpg', alt='')
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/themeforest.jpg', alt='')
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/creative-market.jpg', alt='')

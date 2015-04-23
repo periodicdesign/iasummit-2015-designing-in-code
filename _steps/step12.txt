@@ -1,0 +1,23 @@
+    // Page Footer
+    footer
+      .container
+        .row
+          .col-md-4
+            span.copyright Copyright © Jason Wishard 2015
+          .col-md-4
+            ul.list-inline.social-buttons
+              li
+                a(href='http://twitter.com/iasummit')
+                  i.fa.fa-twitter
+              li
+                a(href='http://dribbble.com/tags/ia_summit')
+                  i.fa.fa-dribbble
+              li
+                a(href='http://www.linkedin.com/groups/IA-Summit-5083443')
+                  i.fa.fa-linkedin
+          .col-md-4
+            ul.list-inline.quicklinks
+              li
+                a.portfolio-link(href='#portfolioModal7', data-toggle='modal') Privacy Policy
+              li
+                a.portfolio-link(href='#portfolioModal7', data-toggle='modal') Terms of Use

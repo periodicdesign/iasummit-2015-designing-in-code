@@ -1,0 +1,18 @@
+    // End Flow Modal 7
+    #portfolioModal7.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Sorry!
+                p.item-intro.text-muted
+                  | This link has no end point. What would you expect to happen instead of seeing this scared puppy?
+                img.img-responsive.img-centered(src='img/highlights/oh-noes-by-silverbrumby-d50wpls.png', alt='')
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Window

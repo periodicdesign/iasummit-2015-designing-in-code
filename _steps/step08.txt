@@ -1,0 +1,14 @@
+          .col-md-4
+            span.fa-stack.fa-4x
+              i.fa.fa-circle.fa-stack-2x.text-primary
+              i.fa.fa-cubes.fa-stack-1x.fa-inverse
+            h4.service-heading Modularity
+            p.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          .col-md-4
+            span.fa-stack.fa-4x
+              i.fa.fa-circle.fa-stack-2x.text-primary
+              i.fa.fa-exchange.fa-stack-1x.fa-inverse
+            h4.service-heading Pixel Pushing
+            p.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.

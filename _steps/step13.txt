@@ -1,0 +1,166 @@
+    // Portfolio Modals
+    // Use the modals below to showcase details about your portfolio projects!
+    // Portfolio Modal 1
+    #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Post-it® Notes
+                p.item-intro.text-muted Strategy
+                img.img-responsive.img-centered(src='img/highlights/post-it-notes.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Strategy
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 2
+    #portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Paper & Pen
+                p.item-intro.text-muted Sketching
+                img.img-responsive.img-centered(src='img/highlights/sketching.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Sketching
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 3
+    #portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Sketch App
+                p.item-intro.text-muted UI Design
+                img.img-responsive.img-centered(src='img/highlights/sketch-app.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want a trial version of Sketch App for OSX?
+                  |  Download it from 
+                  a(href='http://www.bohemiancoding.com/sketch/') Bohemian Coding
+                  | , or you can purchase it from the 
+                  a(href='https://itunes.apple.com/us/app/sketch-3/id852320343?mt=12') Apple App Store
+                  | .
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: UI Design
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 4
+    #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Prepros
+                p.item-intro.text-muted Code Compiler
+                img.img-responsive.img-centered(src='img/highlights/prepros.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want a trial version of Prepros for OSX and/or Windows?
+                  |  Download it from 
+                  a(href='http://www.prepros.io/') Prepros
+                  | , or you can purchase it 
+                  a(href='https://www.prepros.io/buy') here
+                  |  with their sweet checkout flow.
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Code Compiler
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 5
+    #portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Sublime Text 2
+                p.item-intro.text-muted Text Editor
+                img.img-responsive.img-centered(src='img/highlights/sublime-text.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want a version of Sublime Text 2 for OSX and/or Windows?
+                  |  Download it from 
+                  a(href='http://www.sublimetext.com/2') Sublime Text 2
+                  | , and remember to 
+                  a(href='http://www.sublimetext.com/buy') donate/buy
+                  |  if you like the program!
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Text Editor
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 6
+    #portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Agency
+                p.item-intro.text-muted Bootstrap Theme
+                img.img-responsive.img-centered(src='img/highlights/agency.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want this free Bootstrap Theme?
+                  |  Download it from 
+                  a(href='http://www.startbootstrap.com/template-overviews/agency/') Start Bootstrap
+                  | .
+                  ul.list-inline
+                    li Date: April 2015
+                    li Client: IA Summit
+                    li Category: Bootstrap Theme
+                  button.btn.btn-primary(type='button', data-dismiss='modal')
+                    i.fa.fa-times
+                    |  Close Project

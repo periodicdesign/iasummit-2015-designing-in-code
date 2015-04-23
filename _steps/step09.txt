@@ -1,0 +1,62 @@
+    // Portfolio Grid Section
+    section#portfolio.bg-light-gray
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Tools
+            h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/post-it-notes-small.png', alt='')
+            .portfolio-caption
+              h4 Post-it® Notes
+              p.text-muted Strategy
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/sketching-small.png', alt='')
+            .portfolio-caption
+              h4 Paper & Pen
+              p.text-muted Sketching
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/sketch-app-small.png', alt='')
+            .portfolio-caption
+              h4 Sketch App
+              p.text-muted UI Design
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/prepros-small.png', alt='')
+            .portfolio-caption
+              h4 Prepros
+              p.text-muted Code Compiler
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/sublime-text-small.png', alt='')
+            .portfolio-caption
+              h4 Sublime Text 2
+              p.text-muted Text Editor
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/agency-small.png', alt='')
+            .portfolio-caption
+              h4 Agency
+              p.text-muted Bootstrap Theme
