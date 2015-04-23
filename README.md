@@ -1,6 +1,23 @@
 # Designing in Code: Getting Started with HTML Prototyping
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+Prototyping is essential to the design process. The possible methods for execution are many, from paper prototypes to clickable prototypes built in desktop or web-based tools. The downside to many of these tools is they can’t always answer all of our questions. Subtleties such as animations or how a component responds across breakpoints can be best explored through its intended medium: code.
+
+We’ll cover how to get a workflow in place for HTML prototyping, troubleshoot your designs in the browser with inspectors, and think modularly about your designs much quicker. If you’re looking to explore HTML prototyping, this workshop is for you.
+
+## Prereqs & Preparation
+
+* Basic knowledge of HTML and CSS. If you know what a <p> tag is and that you need a curly braces ({}) for your CSS to work properly, you’re golden
+* Please bring a laptop running the latest version of OS X or Windows (yes, we are dual-platform friendly)
+* Your favorite text editor
+* Check back here April 15 for the digital assets you'll need
+
+## Session Takeaways
+
+* Understanding the basics of an HTML prototyping workflow
+* How to use prototypes to troubleshoot your designs during development
+* Tips and tricks for prototyping with others
+* How to think modularly with your designs early
+* How to set up your machine to prototype your design ideas in HTML/CSS
 
 ## Using this Repo
 
