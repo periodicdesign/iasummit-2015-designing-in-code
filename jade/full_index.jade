@@ -1,0 +1,540 @@
+doctype html
+html(lang='en')
+  head
+    // Meta
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    // Give it a title
+    title Designing in Code: Getting Started with HTML Prototyping
+    // Bootstrap Core CSS
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    // Custom CSS
+    link(href='css/agency.css', rel='stylesheet')
+    // Custom Fonts
+    link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+    // Older browser support
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+  body#page-top.index
+    // Navigation
+    nav.navbar.navbar-default.navbar-fixed-top
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header.page-scroll
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand.page-scroll(href='#page-top') IA Summit 2015
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li.hidden
+              a(href='#page-top')
+            li
+              a.page-scroll(href='#services') Highlights
+            li
+              a.page-scroll(href='#portfolio') Tools
+            li
+              a.page-scroll(href='#about') About
+            li
+              a.page-scroll(href='#team') Team
+            li
+              a.page-scroll(href='#contact') Contact
+        // /.navbar-collapse
+      // /.container-fluid
+    // Header
+    header
+      .container
+        .intro-text
+          .intro-lead-in Designing in Code
+          .intro-heading Getting Started with HTML Prototyping
+          a.page-scroll.btn.btn-xl(href='#services') Tell Me More
+    // Services Section
+    section#services
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Highlights
+            h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row.text-center
+          .col-md-4
+            span.fa-stack.fa-4x
+              i.fa.fa-circle.fa-stack-2x.text-primary
+              i.fa.fa-code.fa-stack-1x.fa-inverse
+            h4.service-heading Preprocessors
+            p.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          .col-md-4
+            span.fa-stack.fa-4x
+              i.fa.fa-circle.fa-stack-2x.text-primary
+              i.fa.fa-cubes.fa-stack-1x.fa-inverse
+            h4.service-heading Modularity
+            p.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+          .col-md-4
+            span.fa-stack.fa-4x
+              i.fa.fa-circle.fa-stack-2x.text-primary
+              i.fa.fa-exchange.fa-stack-1x.fa-inverse
+            h4.service-heading Pixel Pushing
+            p.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    // Portfolio Grid Section
+    section#portfolio.bg-light-gray
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Tools
+            h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/post-it-notes-small.png', alt='')
+            .portfolio-caption
+              h4 Post-it® Notes
+              p.text-muted Strategy
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/sketching-small.png', alt='')
+            .portfolio-caption
+              h4 Paper & Pen
+              p.text-muted Sketching
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/sketch-app-small.png', alt='')
+            .portfolio-caption
+              h4 Sketch App
+              p.text-muted UI Design
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/prepros-small.png', alt='')
+            .portfolio-caption
+              h4 Prepros
+              p.text-muted Code Compiler
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/sublime-text-small.png', alt='')
+            .portfolio-caption
+              h4 Sublime Text 2
+              p.text-muted Text Editor
+          .col-md-4.col-sm-6.portfolio-item
+            a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
+              .portfolio-hover
+                .portfolio-hover-content
+                  i.fa.fa-plus.fa-3x
+              img.img-responsive(src='img/highlights/agency-small.png', alt='')
+            .portfolio-caption
+              h4 Agency
+              p.text-muted Bootstrap Theme
+    // About Section
+    section#about
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading About
+            h3.section-subheading.text-muted
+              | Photos courtesy of 
+              a(href='http://awkwardfamilyphotos.com/') Awkward Family Photos
+              | .
+        .row
+          .col-lg-12
+            ul.timeline
+              li
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/1.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Let's Get Started
+                    h4.subheading Partner & Set-up
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li.timeline-inverted
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/2.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Compiling
+                    h4.subheading Prepros, Jade, Less, Oh my!
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/3.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Modularity
+                    h4.subheading Break your design into components
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li.timeline-inverted
+                .timeline-image
+                  img.img-circle.img-responsive(src='img/about/4.jpg', alt='')
+                .timeline-panel
+                  .timeline-heading
+                    h4 Inspecting
+                    h4.subheading Pushing Pixels in Browser
+                  .timeline-body
+                    p.text-muted
+                      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+              li.timeline-inverted
+                .timeline-image
+                  h4
+                    | Start
+                    br
+                    | Prototpying
+                    br
+                    | Monday!
+    // Team Section
+    section#team.bg-light-gray
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Our Amazing Team
+            h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row
+          .col-sm-4
+            .team-member
+              img.img-responsive.img-circle(src='img/team/1.jpg', alt='')
+              h4 You
+              p.text-muted Information Architect
+              ul.list-inline.social-buttons
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-twitter
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-dribbble
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-linkedin
+          .col-sm-4
+            .team-member
+              img.img-responsive.img-circle(src='img/team/3.jpg', alt='')
+              h4 And You
+              p.text-muted Interaction Designer
+              ul.list-inline.social-buttons
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-twitter
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-dribbble
+                li
+                  a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+                    i.fa.fa-linkedin
+          .col-sm-4
+            .team-member
+              img.img-responsive.img-circle(src='img/team/2.jpg', alt='')
+              h4 And Me
+              p.text-muted Design Lead
+              ul.list-inline.social-buttons
+                li
+                  a(href='http://twitter.com/periodicdesign')
+                    i.fa.fa-twitter
+                li
+                  a(href='http://dribbble.com/periodicdesign')
+                    i.fa.fa-dribbble
+                li
+                  a(href='http://www.linkedin.com/in/periodicdesign')
+                    i.fa.fa-linkedin
+        .row
+          .col-lg-8.col-lg-offset-2.text-center
+            p.large.text-muted
+              | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+    // Clients Aside
+    aside.clients
+      .container
+        .row
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/envato.jpg', alt='')
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/designmodo.jpg', alt='')
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/themeforest.jpg', alt='')
+          .col-md-3.col-sm-6
+            a.portfolio-link(href='#portfolioModal7', data-toggle='modal')
+              img.img-responsive.img-centered(src='img/logos/creative-market.jpg', alt='')
+    // Contact Section
+    section#contact
+      .container
+        .row
+          .col-lg-12.text-center
+            h2.section-heading Contact Us
+            h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row
+          .col-lg-12
+            form#contactForm(name='sentMessage', novalidate='')
+              .row
+                .col-md-6
+                  .form-group
+                    input#name.form-control(type='text', placeholder='Your Name *', required='', data-validation-required-message='Please enter your name.')
+                    p.help-block.text-danger
+                  .form-group
+                    input#email.form-control(type='email', placeholder='Your Email *', required='', data-validation-required-message='Please enter your email address.')
+                    p.help-block.text-danger
+                  .form-group
+                    input#phone.form-control(type='tel', placeholder='Your Phone *', required='', data-validation-required-message='Please enter your phone number.')
+                    p.help-block.text-danger
+                .col-md-6
+                  .form-group
+                    textarea#message.form-control(placeholder='Your Message *', required='', data-validation-required-message='Please enter a message.')
+                    p.help-block.text-danger
+                .clearfix
+                .col-lg-12.text-center
+                  #success
+                  button.btn.btn-xl(type='submit') Send Message
+    // Page Footer
+    footer
+      .container
+        .row
+          .col-md-4
+            span.copyright Copyright © Jason Wishard 2015
+          .col-md-4
+            ul.list-inline.social-buttons
+              li
+                a(href='http://twitter.com/iasummit')
+                  i.fa.fa-twitter
+              li
+                a(href='http://dribbble.com/tags/ia_summit')
+                  i.fa.fa-dribbble
+              li
+                a(href='http://www.linkedin.com/groups/IA-Summit-5083443')
+                  i.fa.fa-linkedin
+          .col-md-4
+            ul.list-inline.quicklinks
+              li
+                a.portfolio-link(href='#portfolioModal7', data-toggle='modal') Privacy Policy
+              li
+                a.portfolio-link(href='#portfolioModal7', data-toggle='modal') Terms of Use
+    // Portfolio Modals
+    // Use the modals below to showcase details about your portfolio projects!
+    // Portfolio Modal 1
+    #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Post-it® Notes
+                p.item-intro.text-muted Strategy
+                img.img-responsive.img-centered(src='img/highlights/post-it-notes.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Strategy
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 2
+    #portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Paper & Pen
+                p.item-intro.text-muted Sketching
+                img.img-responsive.img-centered(src='img/highlights/sketching.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Sketching
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 3
+    #portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Sketch App
+                p.item-intro.text-muted UI Design
+                img.img-responsive.img-centered(src='img/highlights/sketch-app.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want a trial version of Sketch App for OSX?
+                  |  Download it from 
+                  a(href='http://www.bohemiancoding.com/sketch/') Bohemian Coding
+                  | , or you can purchase it from the 
+                  a(href='https://itunes.apple.com/us/app/sketch-3/id852320343?mt=12') Apple App Store
+                  | .
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: UI Design
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 4
+    #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Prepros
+                p.item-intro.text-muted Code Compiler
+                img.img-responsive.img-centered(src='img/highlights/prepros.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want a trial version of Prepros for OSX and/or Windows?
+                  |  Download it from 
+                  a(href='http://www.prepros.io/') Prepros
+                  | , or you can purchase it 
+                  a(href='https://www.prepros.io/buy') here
+                  |  with their sweet checkout flow.
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Code Compiler
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 5
+    #portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Sublime Text 2
+                p.item-intro.text-muted Text Editor
+                img.img-responsive.img-centered(src='img/highlights/sublime-text.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want a version of Sublime Text 2 for OSX and/or Windows?
+                  |  Download it from 
+                  a(href='http://www.sublimetext.com/2') Sublime Text 2
+                  | , and remember to 
+                  a(href='http://www.sublimetext.com/buy') donate/buy
+                  |  if you like the program!
+                ul.list-inline
+                  li Date: April 2015
+                  li Client: Resonate
+                  li Category: Text Editor
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Project
+    // Portfolio Modal 6
+    #portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Agency
+                p.item-intro.text-muted Bootstrap Theme
+                img.img-responsive.img-centered(src='img/highlights/agency.png', alt='')
+                p
+                  | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                p
+                  strong Want this free Bootstrap Theme?
+                  |  Download it from 
+                  a(href='http://www.startbootstrap.com/template-overviews/agency/') Start Bootstrap
+                  | .
+                  ul.list-inline
+                    li Date: April 2015
+                    li Client: IA Summit
+                    li Category: Bootstrap Theme
+                  button.btn.btn-primary(type='button', data-dismiss='modal')
+                    i.fa.fa-times
+                    |  Close Project
+    // End Flow Modal 7
+    #portfolioModal7.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-content
+        .close-modal(data-dismiss='modal')
+          .lr
+            .rl
+        .container
+          .row
+            .col-lg-8.col-lg-offset-2
+              .modal-body
+                // Project Details Go Here
+                h2 Sorry!
+                p.item-intro.text-muted
+                  | This link has no end point. What would you expect to happen instead of seeing this scared puppy?
+                img.img-responsive.img-centered(src='img/highlights/oh-noes-by-silverbrumby-d50wpls.png', alt='')
+                button.btn.btn-primary(type='button', data-dismiss='modal')
+                  i.fa.fa-times
+                  |  Close Window
+    // jQuery
+    script(src='js/jquery.js')
+    // Bootstrap Core JavaScript
+    script(src='js/bootstrap.min.js')
+    // Plugin JavaScript
+    //
+      jQuery Easing in the cloud!
+      script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script
+    script(src='js/jquery.easing.min.js')
+    script(src='js/classie.js')
+    script(src='js/cbpAnimatedHeader.js')
+    // Contact Form JavaScript
+    script(src='js/jqBootstrapValidation.js')
+    script(src='js/contact_me.js')
+    // Custom Theme JavaScript
+    script(src='js/agency.js')
